@@ -184,7 +184,10 @@ This project is released under the **MIT License**.
 
 This repository represents a **robust, defensible implementation** of a Divergent Scenario Engine, prioritizing **engineering reliability**, **constraint enforcement**, and **transparent limitations** over prompt-only claims of perfection.
 
+PS: For quick evaluation, run `test_demo.ps1` after starting the FastAPI server. You will get instructions to run in the file named "how_to_run_test_demo_psi.txt
+
 Author:
 Neeraj Bhatia
 Ask Me Anything
+
 
