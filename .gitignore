@@ -1,0 +1,87 @@
+# =========================
+# Python bytecode & cache
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.eggs/
+
+# =========================
+# Virtual environments
+# =========================
+venv/
+.venv/
+env/
+.env/
+.env.*
+ENV/
+
+# =========================
+# Environment variables / secrets
+# =========================
+.env.local
+.env.production
+.env.dev
+
+# =========================
+# Logs & runtime files
+# =========================
+*.log
+logs/
+uvicorn.log
+gunicorn.log
+
+# =========================
+# IDE / Editor files
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+*.bak
+.DS_Store
+Thumbs.db
+
+# =========================
+# Jupyter / Colab
+# =========================
+.ipynb_checkpoints/
+*.ipynb
+
+# =========================
+# Data, evaluation & annotation artifacts
+# =========================
+data/
+datasets/
+labelstudio/
+labelstudio_exports/
+evaluation/
+evaluation_outputs/
+human_annotations/
+
+# =========================
+# Model & training artifacts (DO NOT COMMIT)
+# =========================
+*.bin
+*.pt
+*.ckpt
+*.safetensors
+*.onnx
+*.model
+checkpoints/
+models/
+
+# =========================
+# Temporary / misc
+# =========================
+tmp/
+temp/
+*.tmp
+
+# =========================
+# OS / system
+# =========================
+*.DS_Store
