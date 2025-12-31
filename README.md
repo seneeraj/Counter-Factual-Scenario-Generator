@@ -1,8 +1,8 @@
-# Divergent Scenario Engine (DSE)
+# Counter-Factual Scenario Generator
 
 ## Overview
 
-The **Divergent Scenario Engine (DSE)** is a system that generates **counter-factual, divergent scenarios** from a single input concept.
+The **Counter-Factual Scenario Generator** is a system that generates **counter-factual, divergent scenarios** from a single input concept.
 Unlike summarization or explanation models, DSE focuses on **mechanism-level divergence**, exploring how a concept may evolve under different causal pressures, incentive structures, and system failure modes.
 
 The system exposes a **FastAPI endpoint** that returns **exactly 10 structured scenarios** per request.
@@ -187,3 +187,4 @@ This repository represents a **robust, defensible implementation** of a Divergen
 Author:
 Neeraj Bhatia
 Ask Me Anything
+
