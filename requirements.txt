@@ -6,3 +6,4 @@ transformers
 peft
 accelerate
 rouge-score
+python-dotenv
