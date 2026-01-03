@@ -1,3 +1,6 @@
+from dotenv import load_dotenv
+load_dotenv()
+
 from fastapi import FastAPI
 from app.core.llm_client import OpenAILLMClient
 
@@ -26,3 +29,4 @@ CONCEPT: {concept}
 
     scenarios = llm.generate(prompt)
     return {"concept": concept, "scenarios": scenarios}
+
